@@ -2,6 +2,10 @@
     background-color:#000000;
 }
 
+.texto-blanco{
+    color: white !important;
+}
+
 .thumb{
     margin-bottom: 30px;
 }
