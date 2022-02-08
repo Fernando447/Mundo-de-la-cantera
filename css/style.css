@@ -358,7 +358,7 @@
          top: -2px;
     }
      nav.navbar .navbar-brand img.logo{
-         width: 160px;
+        width: 160px;
     }
      .attr-nav > ul > li > a{
          padding: 16px 15px 15px;
@@ -1629,8 +1629,6 @@
      transition: top .2s,-webkit-transform .2s;
      transition: transform .2s,top .2s;
      transition: transform .2s,top .2s,-webkit-transform .2s;
-     font-family: FontAwesome;
-     content: "\f105";
 }
  .list-group-tree .list-group-collapse .list-group {
      margin-left: 25px;
@@ -2395,26 +2393,83 @@
      vertical-align: middle;
      white-space: nowrap;
 }
- 
 
 
+.btn-primaryC {
+    color: #010101;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #dadada;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
+.btn-primaryC:hover {
+    color: #010101;
+    background-color: #ffffff;
+    border-color: #d33b33;
+}
 
+.btn-primaryC:focus,
+.btn-primaryC.focus {
+    box-shadow: 0 0 0 .2rem rgba(187, 187, 187, 0.5);
+}
 
+.btn-primaryC.disabled,
+.btn-primaryC:disabled {
+    color: #010101;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #dadada;
+}
 
+.btn-primaryC:not(:disabled):not(.disabled):active,
+.btn-primaryC:not(:disabled):not(.disabled).active,
+.show>.btn-primaryC.dropdown-toggle {
+    color: #010101;
+    background-color: #ffffff;
+    border-color: #d33b33;
+}
 
+.btn-primaryC:not(:disabled):not(.disabled):active:focus,
+.btn-primaryC:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primaryC.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(187, 187, 187, 0.5);
+}
 
+.btn-outline-primary {
+    color: rgba(255, 255, 255, 0);;
+    background-color: transparent;
+    background-image: none;
+    border-color: rgba(255, 255, 255, 0);
+}
 
+.btn-outline-primary:hover {
+    color: #222;
+    background-color: #bbbbbb;
+    border-color: rgba(255, 255, 255, 0);
+}
 
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 00 0 0 .2rem rgba(187, 187, 187, 0.5);
+}
 
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: rgba(255, 255, 255, 0);;
+    background-color: transparent
+}
 
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #010101;
+    background-color: #bbbbbb;
+    border-color: rgba(255, 255, 255, 0);
+}
 
-
-
-
-
-
-
-
-
-
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 00 0 0 .2rem rgba(187, 187, 187, 0.5);
+}
