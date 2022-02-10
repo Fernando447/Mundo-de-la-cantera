@@ -522,7 +522,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     
     nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
         font-family: 'FontAwesome';
-        content: "\f0d7";
+        /* content: "\f0d7"; */
         margin-left: 5px;
         margin-top: 2px;
     }
@@ -566,7 +566,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before{
         font-family: 'FontAwesome';
         float: right;
-        content: "\f105";
+        /* content: "\f105"; */
         margin-top: 0;
     }
     
@@ -928,12 +928,12 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     
     nav.bootsnav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li.dropdown > a:before{
         font-family: 'FontAwesome';
-        content: "\f105";
+        /* content: "\f105"; */
         float: right;
     }
     
     nav.bootsnav.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on > a:before{
-        content: "\f107";
+        content: none;
     }
     
     nav.bootsnav.navbar-sidebar ul.dropdown-menu.megamenu-content > li{
@@ -960,12 +960,12 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     
     nav.bootsnav.navbar-sidebar .dropdown .megamenu-content .col-menu .title:before{
         font-family: 'FontAwesome';
-        content: "\f105";
+        /* content: "\f105"; */
         float: right;
     }
     
     nav.bootsnav.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title:before{
-        content: "\f107";
+        content: none;
     }
     
     nav.bootsnav.navbar-sidebar .dropdown .megamenu-content .col-menu{
@@ -1041,7 +1041,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     }
     
     nav.navbar.bootsnav li.dropdown.on > a.dropdown-toggle:before{
-        content: "\f107";
+        content: none;
     }
     
     nav.navbar.bootsnav .navbar-nav > li > a{
@@ -1137,8 +1137,8 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     }
     
    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before{
-        font-family: 'FontAwesome';
-        content: "\f105";
+        /* font-family: 'FontAwesome';
+        content: "\f105"; */
         float: right;
         font-size: 16px;
         margin-left: 10px;
@@ -1159,7 +1159,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     }
     
     nav.navbar.bootsnav .dropdown .megamenu-content .col-menu.on .title:before{
-        content: "\f107";
+        content: none;
     }
     
     nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .content{
